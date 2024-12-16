@@ -8,7 +8,7 @@ from numpy import dtype
 from altair.theme import options
 
 
-model = pickle.load(open('/Users/arun/Downloads/Arun.pkl','rb'))
+model = pickle.load(open('Arun.pkl','rb'))
 
 def db_pred(gender,age,hypertension,heart_disease,smoking_history,bmi,HbA1c_level,blood_glucose_level):
     ip=np.array([[(gender),int(age),(hypertension),(heart_disease),(smoking_history),float(bmi),
@@ -46,7 +46,7 @@ def main():
 
     if st.button("Predict"):
         try:
-            gif = "/Users/arun/Downloads/Vasool_Raja_MBBS_4.gif"
+            gif = "Vasool_Raja_MBBS_4.gif"
             gif_holder.image(gif,caption = 'Processing', use_container_width=True)
             time.sleep(5)
             gif_holder.empty()
@@ -58,7 +58,7 @@ def main():
                 result_placeholder.markdown("""<div style ="text-align: center;font-size: 60 px; color: red;">
                                 You are diabetic 😢
                                 </div>""", unsafe_allow_html=True)
-                result_placeholder1.audio("/Users/arun/Downloads/Avlothan Nammala Mudichu Vittinga Ponga Dialogue-[AudioTrimmer.com].mp3",autoplay=True)
+                result_placeholder1.audio("Avlothan Nammala Mudichu Vittinga Ponga Dialogue-[AudioTrimmer.com].mp3",autoplay=True)
             else:
                 result_placeholder.markdown("""<div style ="text-align: center;font-size: 60 px; color: green;">
                 You are not diabetic 🎉
