@@ -1,3 +1,6 @@
 streamlit
 skit-learn
 numpy
+altair
+pickle
+time
