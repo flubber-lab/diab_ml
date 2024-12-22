@@ -1,6 +1,5 @@
 streamlit
-skit-learn
+scikit-learn
 numpy
 altair
-pickle
-time
+
