@@ -13,8 +13,8 @@ This repository contains a Streamlit-based web application that predicts the lik
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone [<repository_url>](https://github.com/flubber-lab/diab_ml.git)
+   cd diab_ml
    ```
 2. Install the required Python libraries:
    ```bash
